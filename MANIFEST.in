@@ -1,0 +1,22 @@
+include README.md
+include README_WINDOWS.md
+include LICENSE
+include CHANGELOG.md
+include CLAUDE.md
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include requirements.txt
+include pyproject.toml
+include setup.py
+include *.bat
+recursive-include bookmark_manager *.py *.bat *.md
+exclude *.git*
+exclude *.pyc
+exclude *.pyo
+exclude __pycache__
+exclude *.egg-info
+exclude .DS_Store
+exclude .vscode
+exclude .idea
+exclude dist
+exclude build
