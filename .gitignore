@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+pypi_env/bin/*
+pypi_env/lib/*
+pypi_env/lib64/*
+pypi_env/Scripts/*
+pypi_env/Scripts/*.pyd
+
 # C extensions
 *.so
 
